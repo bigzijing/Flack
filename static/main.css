@@ -1,0 +1,97 @@
+/* Application / outermost container */
+.application {
+    font-family: monospace;
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+    color: white;
+    justify-content: center;
+}
+
+/* Channel list colors */
+.channel-list {
+    background-color: darkslategray;
+    padding-left: 25px;
+    color: whitesmoke;
+    height: 85vh;
+    padding: -60px;
+    overflow-y: scroll;
+    justify-content: center;
+    text-align: center;
+    overflow-y: hidden;
+}
+
+.no-padding {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    margin: 0 !important;
+    overflow-x: hidden;
+}
+
+#channel-chat {
+    height: 82vh;
+    width: 95%;
+    overflow-y: scroll;
+}
+
+
+.message-input {
+    height: 3vh;
+}
+
+#text-input {
+    height: 3vh;
+    overflow-x: hidden;
+}
+
+.app-title {
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    height: 7vh;
+    vertical-align: middle;
+}
+
+.app-title:before {
+    vertical-align: middle;
+}
+
+.body {
+    overflow-x: hidden;
+}
+
+.selected {
+    background-color: darkslateblue;
+}
+
+/* Stylize channel */
+.channel {
+    height: 50px;
+    list-style-type: none;
+    vertical-align: middle;
+    margin: auto;
+}
+
+ul.sidenav.fixed {
+    top: 250px;
+    overflow: hidden;
+    position: absolute;
+}
+
+header, main, footer {
+    width: 100%;
+    padding-left: 0;
+}
+
+li {
+    align-items: center;
+    vertical-align: middle;
+}
+
+input, #welcome, #text-input {
+    color: lime;
+}
+
+html {
+    overflow-y: hidden;
+}
