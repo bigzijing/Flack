@@ -12,9 +12,9 @@ These are the bugs and improvements that I know exist and might plan to fix in t
 
 1. Message container not snapping to bottom of viewport when new message comes
 2. No user log-out -- once you are prompted at the start of session and logged in, you cannot log-out unless you open a new session
-    2.1. No user credentials/registration system -- already demonstrated in CS50x Web Project and this courses' Project 1
-    2.2. No checking if two concurrent users have the same username
-    2.3. No way to change username
+2.1. No user credentials/registration system -- already demonstrated in CS50x Web Project and this courses' Project 1
+2.2. No checking if two concurrent users have the same username
+2.3. No way to change username
 3. New channels added that starts with special characters have a "_" appended before them because of querySelector reasons in Javascript; there is probably a more elegant way of doing this which might be explored in future
     3.1. Optional: Did not switch to new channel upon channel creation although easily implemented
 4. No way to delete/rename channels
