@@ -7,6 +7,9 @@ The app's layout was built from scratch, using Bootstrap and Materialize compone
 
 The personalization is incorporating a very old-school feel as modern messaging apps all look much slicker and less glaring to the eyes. I started off having an avatar beside each message (successfully implemented but deleted) but it was dropped after deciding that I wanted to go for an IRC-look stylistically.
 ---
+## App-In-Action (or Inaction ha ha)
+https://youtu.be/QatU_jJWKbI
+---
 ## Improvements/bugs
 These are the bugs and improvements that I know exist and might plan to fix in the future after finishing the course
 
