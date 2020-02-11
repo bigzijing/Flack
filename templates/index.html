@@ -1,0 +1,57 @@
+{% extends "layout.html" %}
+
+{% block title %}
+Flack
+{% endblock %}
+
+{% block body %}
+    <div class="container-fluid application">
+        <div class="row">
+            <div class="col-12">
+                <div id="header">
+                    <h1 class="app-title">Welcome to Flack: Zij's Internet Relay Chat!11!</h1>
+                </div id="header">
+                <div class="row">
+                    <div class="col-2">
+                        <div class="container-fluid channel-list no-padding">
+                            <div class="row">
+                                <div class="col-12">
+                                    <h5>Welcome, </h5>
+                                    <h5 id="welcome"><br><br></h5><hr>
+                                    <form class="input-field">
+                                        <input id="new_channel_name" type="text" class="validate" autocomplete="off" placeholder="#newchannelname">
+                                        <button id="add_channel_btn" class="btn waves-effect waves-light btn-small">Create new #channel</button>
+                                    </form>
+                                    <hr><h6><b>Channels</b></h6><br>
+                                    <ul id="channels">
+                                        <!--- <li><a class="waves-effect sidenav-close" href="#" id="general">#example</a></li> -->
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-10">
+                        <div class="container-fluid" id="channel-chat">
+                            <div class="message overflow-auto">
+                                <!-- <span>Messages go here</span> -->
+                                <br>
+                            </div>
+                        </div>
+                        <div class="container-fluid message-input">
+                            <form class="sendmsg">
+                                <div class="form-row">
+                                    <div class="col-11">
+                                        <input id="text_input" type="text" class="form-control" placeholder="enter msg">
+                                    </div>
+                                    <div class="col-1">
+                                        <button id="send_msg_btn" type="submit">send msg</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}
